@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": "src"
+  },
+  "include": [
+    "src",
+    "tests",
+    "**/*.js",
+    "**/*.jsx"
+, "public/__mocks__",
+".jest/setup.js" ],
+  "exclude": [
+    "node_modules"
+  ]
+}
